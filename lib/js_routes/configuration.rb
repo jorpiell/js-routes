@@ -104,7 +104,7 @@ module JsRoutes
 
     def verify
       if module_type != 'NIL' && namespace
-        raise "JsRoutes namespace option can only be used if module_type is nil"
+        #raise "JsRoutes namespace option can only be used if module_type is nil"
       end
     end
   end
